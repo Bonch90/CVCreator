@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_version">Version: </string>
+    <string name="crash_toast_text">Ooooops! I crashed, but a report has been sent to my developer to help fix the issue !</string>
+    <string name="app_name">CV creator</string>
+    <string name="action_settings">Settings</string>
+    <string name="nome_cognome">surname and first name</string>
+    <string name="indirizzo">address</string>
+    <string name="telefono">telephone number</string>
+    <string name="fax">personal website</string>
+    <string name="email">email</string>
+    <string name="nazionalita">country</string>
+    <string name="madrelingua">mother tongue</string>
+    <string name="data">date of birth</string>
+    <string name="descrizione">personal picture</string>
+    <string name="title_activity_job_experience">Job</string>
+    <string name="next">next</string>
+    <string name="njob">employer’s name and locality </string>
+    <string name="tjob">type of business or sector</string>
+    <string name="impiego">occupation or position held</string>
+    <string name="mansione">main activities and responsibilities</string>
+    <string name="conferma">confirm</string>
+    <string name="salva">save</string>
+    <string name="aggiungi">add</string>
+    <string name="elimina">delete</string>
+    <string name="title_activity_job_experiences">Work esperience</string>
+    <string name="title_activity_school_experiences">Education and training</string>
+    <string name="title_activity_school_experience">Education</string>
+    <string name="title_activity_main">Personal information</string>
+    <string name="title_activity_abilities">Languages</string>
+    <string name="nschool">education or training organisation’s name and locality </string>
+    <string name="materie">principal subjects covered or skills acquired</string>
+    <string name="qualifica">qualification awarded</string>
+    <string name="startdata">start date</string>
+    <string name="enddata">end date</string>
+    <string name="lettura">reading skills</string>
+    <string name="scrittura">writing skills</string>
+    <string name="orale">speaking skills</string>
+    <string name="other">other language</string>
+    <string name="relazioni">Communication skills</string>
+    <string name="organizza">Organisational / managerial skills</string>
+    <string name="tecnica">Job-related skills</string>
+    <string name="arte">Computer skills</string>
+    <string name="altri">Other skills</string>
+    <string name="patente">Driving licence</string>
+    <string name="descr">Replace with skills.</string>
+    <string name="patente_descr">Replace with driving licence category/-ies.</string>
+    <string name="crea">Create PDF</string>
+    <string name="nuovo">New CV</string>
+    <string name="carica">Load CV</string>
+    <string name="info">About</string>
+
+    <string-array name="capacita">
+        <item>C2</item>
+        <item>C1</item>
+        <item>B2</item>
+        <item>B1</item>
+        <item>A2</item>
+        <item>A1</item>
+    </string-array>
+
+    <string name="title_activity_language_experience">Other language</string>
+    <string name="title_activity_abilities_2">Personal skills</string>
+    <string name="title_activity_info">About CV Creator</string>
+    <string name="credits">Designed and developed by Bon Marco.</string>
+    <string name="libreria">Third party libraries:</string>
+    <string name="acra"> - ACRA: Apache License 2.0</string>
+    <string name="droidText"> - droidText: LGPL License</string>
+    <string name="nome">Name</string>
+    <string name="date">Date (from - to)</string>
+    <string name="altraLingua">Other language</string>
+    <string name="elaborazione">Now loading</string>
+    <string name="attendere">Please wait&#8230;</string>
+    <string name="liberatoria">I authorize the handling of my personal details.</string>
+    
+
+</resources>

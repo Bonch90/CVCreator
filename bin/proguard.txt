@@ -1,0 +1,53 @@
+# view AndroidManifest.xml #generated:67
+-keep class com.bonch.cvcreator.Abilities { <init>(...); }
+
+# view AndroidManifest.xml #generated:85
+-keep class com.bonch.cvcreator.Abilities_2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.bonch.cvcreator.Info { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.bonch.cvcreator.JobExperience { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.bonch.cvcreator.JobExperiences { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.bonch.cvcreator.LanguageExperience { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.bonch.cvcreator.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:15
+-keep class com.bonch.cvcreator.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.bonch.cvcreator.SchoolExperience { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.bonch.cvcreator.SchoolExperiences { <init>(...); }
+
+# onClick res/layout/activity_abilities_2.xml #generated:82
+-keepclassmembers class * { *** creaPDF(...); }
+
+# onClick res/layout/activity_abilities.xml #generated:36
+# onClick res/layout/activity_job_experiences.xml #generated:19
+# onClick res/layout/activity_main.xml #generated:79
+# onClick res/layout/activity_school_experiences.xml #generated:19
+-keepclassmembers class * { *** nextPage(...); }
+
+# onClick res/layout/activity_main.xml #generated:23
+-keepclassmembers class * { *** select_photo(...); }
+
+# onClick res/layout/activity_main.xml #generated:69
+-keepclassmembers class * { *** showDatePickerDialog(...); }
+
+# onClick res/layout/activity_job_experience.xml #generated:33
+# onClick res/layout/activity_school_experience.xml #generated:34
+-keepclassmembers class * { *** showEndDatePickerDialog(...); }
+
+# onClick res/layout/activity_job_experience.xml #generated:22
+# onClick res/layout/activity_school_experience.xml #generated:23
+-keepclassmembers class * { *** showStartDatePickerDialog(...); }
+

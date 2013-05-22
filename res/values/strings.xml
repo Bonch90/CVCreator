@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_version">Versione: </string>
+    <string name="crash_toast_text">Ooooops! I crashed, but a report has been sent to my developer to help fix the issue !</string>
+    <string name="app_name">CV creator</string>
+    <string name="action_settings">Settings</string>
+    <string name="nome_cognome">cognome e nome</string>
+    <string name="indirizzo">indirizzo</string>
+    <string name="telefono">telefono</string>
+    <string name="fax">sito web personale</string>
+    <string name="email">email</string>
+    <string name="nazionalita">nazionalità</string>
+    <string name="madrelingua">madrelingua</string>
+    <string name="data">data di nascita</string>
+    <string name="descrizione">foto personale</string>
+    <string name="title_activity_job_experience">Lavoro</string>
+    <string name="next">avanti</string>
+    <string name="njob">nome e indirizzo del datore di lavoro</string>
+    <string name="tjob">tipo di azienda o settore</string>
+    <string name="impiego">tipo di impiego</string>
+    <string name="mansione">principali mansioni e attività</string>
+    <string name="conferma">conferma</string>
+    <string name="salva">salva</string>
+    <string name="aggiungi">aggiungi</string>
+    <string name="elimina">elimina</string>
+    <string name="title_activity_job_experiences">Esperienza professionale</string>
+    <string name="title_activity_school_experiences">Istruzione e formazione</string>
+    <string name="title_activity_school_experience">Istruzione</string>
+    <string name="title_activity_main">Informazioni Personali</string>
+    <string name="title_activity_abilities">Lingue Conosciute</string>
+    <string name="nschool">nome e tipo di istituto di istruzione o formazione</string>
+    <string name="materie">principali materie / abilità professionali oggetto dello studio</string>
+    <string name="qualifica">qualifica conseguita</string>
+    <string name="startdata">data inizio</string>
+    <string name="enddata">data di fine</string>
+    <string name="lettura">capacità di lettura</string>
+    <string name="scrittura">capacità di scrittura</string>
+    <string name="orale">capacità di espressione orale</string>
+    <string name="other">altre lingue</string>
+    <string name="relazioni">Competenze comunicative</string>
+    <string name="organizza">Competenze organizzative e gestionali</string>
+    <string name="tecnica">Competenze professionali</string>
+    <string name="arte">Competenze informatiche</string>
+    <string name="altri">Altre competenze</string>
+    <string name="patente">Patente</string>
+    <string name="descr">Sostituire con le competenze acquisite.</string>
+    <string name="patente_descr">tipo di patenti possedute</string>
+    <string name="crea">Crea PDF</string>
+    <string name="nuovo">Crea nuovo CV</string>
+    <string name="carica">Carica CV</string>
+    <string name="info">Info</string>
+
+    <string-array name="capacita">
+        <item>C2</item>
+        <item>C1</item>
+        <item>B2</item>
+        <item>B1</item>
+        <item>A2</item>
+        <item>A1</item>
+    </string-array>
+
+    <string name="title_activity_language_experience">Altra lingua</string>
+    <string name="title_activity_abilities_2">Competenze Personali</string>
+    <string name="title_activity_info">Informazioni su CV Creator</string>
+    <string name="credits">Ideata e sviluppata da Bon Marco.</string>
+    <string name="libreria">Librerie di terze parti utilizzate:</string>
+    <string name="acra"> - ACRA: Apache License 2.0</string>
+    <string name="droidText"> - droidText: LGPL License</string>
+    <string name="nome">Nome</string>
+    <string name="date">Date (da - a)</string>
+    <string name="altraLingua">Altra lingua</string>
+    <string name="elaborazione">Elaborazione in corso</string>
+    <string name="attendere">Attendere&#8230;</string>
+    <string name="liberatoria">Autorizzo il trattamento dei dati personali contenuti nel mio curriculum vitae in base art. 13 del D. Lgs. 196/2003.</string>
+
+</resources>

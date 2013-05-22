@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_version">Versión: </string>
+    <string name="crash_toast_text">Ooooops! I crashed, but a report has been sent to my developer to help fix the issue !</string>
+    <string name="app_name">CV creator</string>
+    <string name="nome_cognome">apellido y nombre</string>
+    <string name="indirizzo">dirección</string>
+    <string name="telefono">número de teléfono</string>
+    <string name="fax">página web personal</string>
+    <string name="email">correo electrónico</string>
+    <string name="nazionalita">nacionalidad</string>
+    <string name="madrelingua">lengua materna</string>
+    <string name="data">fecha de nacimiento</string>
+    <string name="descrizione">foto personale</string>
+    <string name="title_activity_job_experience">Profesión</string>
+    <string name="next">avanti</string>
+    <string name="njob">nombre del empleador y la localidad </string>
+    <string name="tjob">tipo de sector de actividad</string>
+    <string name="impiego">profesión o cargo desempeñado</string>
+    <string name="mansione">funciones y responsabilidades principales</string>
+    <string name="conferma">aceptar</string>
+    <string name="salva">guardar</string>
+    <string name="aggiungi">añadir</string>
+    <string name="elimina">eliminar</string>
+    <string name="title_activity_job_experiences">Experencia profesional</string>
+    <string name="title_activity_school_experiences">Educación y formación</string>
+    <string name="title_activity_school_experience">Educación</string>
+    <string name="title_activity_main">Información personal</string>
+    <string name="title_activity_abilities">Idiomas</string>
+    <string name="nschool">nombre de la institución de formación y su localidad</string>
+    <string name="materie">principales materias cursadas y/o competencias adquiridas</string>
+    <string name="qualifica">cualificación o título obtenido</string>
+    <string name="startdata">fecha de inicio</string>
+    <string name="enddata">fecha de término</string>
+    <string name="lettura">lectura</string>
+    <string name="scrittura">escritura</string>
+    <string name="orale">expresión oral</string>
+    <string name="other">otros idiomas</string>
+    <string name="relazioni">Competencias comunicativas</string>
+    <string name="organizza">Competencias de organización/ gestión</string>
+    <string name="tecnica">Competencias relacionadas con el empleo</string>
+    <string name="arte">Competencias informáticas</string>
+    <string name="altri">Otras competencias</string>
+    <string name="patente">Permiso de conducir</string>
+    <string name="descr">Indicar las competencias y especificar en qué contexto se han adquirido.</string>
+    <string name="patente_descr">Indicar la(s) categoría(s) del permiso(s) de conducir que se posea.</string>
+    <string name="crea">Crear PDF</string>
+    <string name="nuovo">Crear nuovo CV</string>
+    <string name="carica">Cargar CV</string>
+    <string name="info">Acerca</string>
+
+    <string-array name="capacita">
+        <item>C2</item>
+        <item>C1</item>
+        <item>B2</item>
+        <item>B1</item>
+        <item>A2</item>
+        <item>A1</item>
+    </string-array>
+
+    <string name="title_activity_language_experience">Otro idioma</string>
+    <string name="title_activity_abilities_2">Competecias Personales</string>
+    <string name="title_activity_info">Acerca de CV Creator</string>
+    <string name="credits">Elaborado por Bon Marco.</string>
+    <string name="libreria">Librerías de terceros utilizadas:</string>
+    <string name="acra"> - ACRA: Apache License 2.0</string>
+    <string name="droidText"> - droidText: LGPL License</string>
+    <string name="nome">Nombre</string>
+    <string name="date">Fechas (desde - a)</string>
+    <string name="altraLingua">Otro idioma</string>
+    <string name="elaborazione">Cargando</string>
+    <string name="attendere">Esperar&#8230;</string>
+    <string name="liberatoria">Autorización al tratamiento automatizado de los datos personales.</string>
+
+</resources>

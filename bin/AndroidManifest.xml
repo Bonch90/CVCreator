@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bonch.cvcreator"
+    android:versionCode="8"
+    android:versionName="0.10.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:name="com.bonch.cvcreator.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.bonch.cvcreator.MainActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bonch.cvcreator.JobExperience"
+            android:label="@string/title_activity_job_experience"
+            android:parentActivityName="JobExperiences"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="JobExperiences" />
+        </activity>
+        <activity
+            android:name="com.bonch.cvcreator.JobExperiences"
+            android:label="@string/title_activity_job_experiences"
+            android:parentActivityName="MainActivity"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+        <activity
+            android:name="com.bonch.cvcreator.SchoolExperiences"
+            android:label="@string/title_activity_school_experiences"
+            android:parentActivityName="JobExperiences"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="JobExperiences" />
+        </activity>
+        <activity
+            android:name="com.bonch.cvcreator.SchoolExperience"
+            android:label="@string/title_activity_school_experience"
+            android:parentActivityName="SchoolExperiences"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="SchoolExperiences" />
+        </activity>
+        <activity
+            android:name="com.bonch.cvcreator.Abilities"
+            android:label="@string/title_activity_abilities"
+            android:parentActivityName="SchoolExperiences"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="SchoolExperiences" />
+        </activity>
+        <activity
+            android:name="com.bonch.cvcreator.LanguageExperience"
+            android:label="@string/title_activity_language_experience"
+            android:parentActivityName="Abilities"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="Abilities" />
+        </activity>
+        <activity
+            android:name="com.bonch.cvcreator.Abilities_2"
+            android:label="@string/title_activity_abilities_2"
+            android:parentActivityName="Abilities"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="Abilities" />
+        </activity>
+        <activity
+            android:name="com.bonch.cvcreator.Info"
+            android:label="@string/title_activity_info"
+            android:parentActivityName="MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

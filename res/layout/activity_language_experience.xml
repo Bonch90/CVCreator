@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".LanguageExperience" >
+
+	<Spinner android:id="@+id/madrelingua"
+		android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+	
+	<TextView android:id="@+id/lettura"
+	    android:textIsSelectable="false"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/lettura"/>
+	
+	<Spinner android:id="@+id/capacita_lettura"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+	
+	<TextView android:id="@+id/scrittura"
+	    android:textIsSelectable="false"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/scrittura"/>
+	
+	<Spinner android:id="@+id/capacita_scrittura"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+
+	<TextView android:id="@+id/orale"
+	    android:textIsSelectable="false"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/orale"/>
+	
+	<Spinner android:id="@+id/capacita_orale"
+	    android:layout_width="match_parent"
+    	android:layout_height="wrap_content"/>
+	
+	
+</LinearLayout>
